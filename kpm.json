@@ -1,0 +1,12 @@
+{
+    "name": "synth-subsheets",
+    "version": "0.0.1",
+    "author": "danroblewis",
+    "homepage": "",
+    "commands": {},
+    "dependencies": {
+	"eurorack-parts": "0.0.1",
+	"kpm-jlcpcb-basic": "0.0.5",
+	"kicad_lib_symbols_power": "0.0.6"
+    }
+}
