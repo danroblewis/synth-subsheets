@@ -8,14 +8,31 @@
   )
 
 
-  (sheet (at 45.847 56.007) (size 27.813 15.24) (fields_autoplaced)
+  (sheet (at 46.736 68.707) (size 25.654 11.557) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
-    (uuid 59831f5d-608c-40ab-b479-646556675e14)
-    (property "Sheetname" "europower" (at 45.847 55.2954 0)
+    (uuid 5f8583cd-ab79-4f24-93fb-2f203ed37297)
+    (property "Sheetname" "power2" (at 46.736 67.9954 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "europower.kicad_sch" (at 45.847 71.8316 0)
+    (property "Sheetfile" "subsheets/europower.kicad_sch" (at 46.736 80.8486 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "synth-subsheets"
+        (path "/a4893583-2878-4d86-bdba-6b18e8bd6cd6" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 43.815 42.545) (size 21.59 8.128) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e925806b-6dc0-456c-811e-ed9c9aa1dfc9)
+    (property "Sheetname" "power1" (at 43.815 41.8334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "subsheets/europower.kicad_sch" (at 43.815 51.2576 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
