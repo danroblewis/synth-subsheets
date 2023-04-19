@@ -1,5 +1,31 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a4893583-2878-4d86-bdba-6b18e8bd6cd6)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 45.847 56.007) (size 27.813 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 59831f5d-608c-40ab-b479-646556675e14)
+    (property "Sheetname" "europower" (at 45.847 55.2954 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "europower.kicad_sch" (at 45.847 71.8316 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "synth-subsheets"
+        (path "/a4893583-2878-4d86-bdba-6b18e8bd6cd6" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
